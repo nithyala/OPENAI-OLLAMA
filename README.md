@@ -84,6 +84,4 @@ streamlit run app.py
 - On **Streamlit Cloud**, secrets like `LANGCHAIN_API_KEY` are stored under **Manage app → Settings → Secrets** rather than in a `.env` file.
 - The Ollama version (`app.py`) runs models locally, so it works offline but needs Ollama installed on the machine running it. It is **not deployable to Streamlit Cloud** — only `main.py` (OpenAI) is hosted as the live demo.
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
